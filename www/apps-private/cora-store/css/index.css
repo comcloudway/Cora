@@ -2,11 +2,21 @@
  margin:0;
  padding: 0;
 }
+@keyframes glimpse {
+  from {
+    clip-path: circle(75%)
+  }
+  to {
+    clip-path: circle(0%)
+  }
+}
 body {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
   background-color: white;
+  clip-path: circle(75%);
+  animation: glimpse 5s 5s both
 }
 body div {
   height: 100vh;
@@ -17,15 +27,33 @@ body div {
   left:50%;
   transform: translate(-50%,-50%);
 }
+
+@keyframes close-yellow {
+  0% {
+    clip-path: circle(75%);
+    background-color: #e6cb05;
+  }
+  100% {
+    clip-path: circle(25%);
+    background-color: #fcc41c
+  }
+}
+
 .yellow {
   background-color: #e6cb05;
-  clip-path: polygon()
+  clip-path: circle(75%);
+  animation: close-yellow 5s both;
 }
+
+
 .lightblue {
   background-color: #709bb8;
-  clip-path: polygon()
+  clip-path: polygon(0% 30%, 20% 40%, 40% 20%, 60% 50%, 80% 30%, 100% 50%, 100% 100%, 0% 100%, 0% 30%);
 }
+
+
 .blue {
   background-color: #325e7a;
-  clip-path: polygon()
+  clip-path: polygon(0% 70%, 20% 60%, 40% 80%, 60% 70%, 80% 60%, 100% 70%, 100% 100%, 0% 100%, 0% 70%);
 }
+
