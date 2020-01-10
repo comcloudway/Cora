@@ -7,5 +7,5 @@ function onDeviceReady() {
 
 document.addEventListener("deviceready", ()=>{
 
-fs.readDirSync(cordova.file.dataDirectory)
+fs.readDirSync(cordova.file.externalDataDirectory)
 }, false);

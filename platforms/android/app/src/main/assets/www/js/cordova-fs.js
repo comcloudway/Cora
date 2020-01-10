@@ -5,7 +5,7 @@ const fs = {
             var reader = fileSystem.createReader();
             reader.readEntries(
               (entries) => {
-                console.log(entries);
+                alert(entries);
               },
               (err) => {
                 console.log(err);
