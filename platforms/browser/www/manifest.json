@@ -4,8 +4,8 @@
   "name": "Cora",
   "short_name": "Cora",
   "version": "com.comcloudway.cora",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "author": "Apache Cordova Team",
+  "description": "Cora - Your WebApp Store",
+  "author": "devjakobmeier",
   "icons": [],
   "start_url": "index.html"
 }

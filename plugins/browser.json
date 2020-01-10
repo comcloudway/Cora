@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.comcloudway.cora"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.comcloudway.cora"
     }
   },
   "dependent_plugins": {}
