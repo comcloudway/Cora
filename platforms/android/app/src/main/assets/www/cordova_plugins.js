@@ -172,10 +172,19 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
         "cordova"
       ],
       "runs": true
+    },
+    {
+      "id": "cordova-plugin-shortcuts-android.ShortcutsPlugin",
+      "file": "plugins/cordova-plugin-shortcuts-android/www/ShortcutsPlugin.js",
+      "pluginId": "cordova-plugin-shortcuts-android",
+      "clobbers": [
+        "Shortcuts"
+      ]
     }
   ];
   module.exports.metadata = {
     "cordova-plugin-whitelist": "1.3.4",
-    "cordova-plugin-file": "6.0.2"
+    "cordova-plugin-file": "6.0.2",
+    "cordova-plugin-shortcuts-android": "0.1.0"
   };
 });

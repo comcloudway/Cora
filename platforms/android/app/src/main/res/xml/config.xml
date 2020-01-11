@@ -9,6 +9,9 @@
         <param name="onload" value="true" />
     </feature>
     <allow-navigation href="cdvfile:*" />
+    <feature name="ShortcutsPlugin">
+        <param name="android-package" value="com.plugins.shortcuts.ShortcutsPlugin" />
+    </feature>
     <name>Cora</name>
     <description>
         Cora - Your WebApp Store

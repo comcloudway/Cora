@@ -6,6 +6,12 @@
   "version": "com.comcloudway.cora",
   "description": "Cora - Your WebApp Store",
   "author": "devjakobmeier",
-  "icons": [],
+  "icons": [
+    {
+      "src": "www/icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
   "start_url": "index.html"
 }

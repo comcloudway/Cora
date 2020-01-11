@@ -178,13 +178,22 @@ module.exports = [
         "merges": [
             "window.FileSystem"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-shortcuts-android/www/ShortcutsPlugin.js",
+        "id": "cordova-plugin-shortcuts-android.ShortcutsPlugin",
+        "pluginId": "cordova-plugin-shortcuts-android",
+        "clobbers": [
+            "Shortcuts"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.3.4",
-    "cordova-plugin-file": "6.0.2"
+    "cordova-plugin-file": "6.0.2",
+    "cordova-plugin-shortcuts-android": "0.1.0"
 }
 // BOTTOM OF METADATA
 });
